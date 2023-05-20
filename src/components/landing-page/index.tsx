@@ -22,8 +22,11 @@ const LandingPage = () => {
           </div>
         </div>
       </section>
-      <section className="pray h-screen bg-yi-rose text-center font-Itim text-white">
-        <div className="flex h-screen flex-col items-center justify-evenly">
+      <section className="pray bg-yi-rose text-center font-Itim text-white">
+        <div
+          className="flex flex-col items-center justify-evenly
+        py-8"
+        >
           <div className="px-8 ">
             <span>
               Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
@@ -48,7 +51,7 @@ const LandingPage = () => {
               kami:
             </span>
           </div>
-          <div className="flex flex-col">
+          <div className="mt-8 flex flex-col">
             <div>
               <span className="font-Parisienne text-5xl">Yuni</span>
               <span className="mt-4 block">
