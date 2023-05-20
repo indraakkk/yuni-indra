@@ -1,7 +1,7 @@
 export default function Pray() {
   return (
-    <section className="pray flex justify-center bg-yi-rose text-center font-Itim text-white">
-      <div className="flex max-w-2xl flex-col items-center justify-evenly py-8">
+    <section className="pray flex justify-center bg-yi-rose text-center font-Itim text-sm text-white">
+      <div className="flex max-w-2xl flex-col items-center justify-evenly py-10">
         <div className="px-8 ">
           <span>
             Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
@@ -9,12 +9,12 @@ export default function Pray() {
             dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa
             kasih dan sayang. Sungguh, pada yang demikian itu benar-benar
             terdapat tanda-tanda (kebesaran Allah) bagi kaum yang berpikir.
-            <span className="block pt-2 font-ViaodaLibre text-lg">
+            <span className="block pt-2 font-ViaodaLibre text-sm">
               QS. Ar-Rum Ayat 21
             </span>
           </span>
         </div>
-        <div className="my-8 font-Allura text-2xl tracking-wide">
+        <div className="my-8 font-Allura text-xl tracking-wide">
           <span>Assalamualaikum Warahmatullahi Wabarakatuh</span>
         </div>
         <div className="px-8">
@@ -26,7 +26,7 @@ export default function Pray() {
         </div>
         <div className="mt-8 flex flex-col">
           <div>
-            <span className="font-Parisienne text-5xl">Yuni</span>
+            <span className="font-Parisienne text-3xl">Yuni</span>
             <span className="mt-4 block">
               Anak kedua dari{" "}
               <span className="block">
@@ -34,9 +34,12 @@ export default function Pray() {
               </span>
             </span>
           </div>
-          <div className="mt-7">
-            <span className="font-Parisienne text-5xl">Indra Putra</span>
-            <span className="mt-1 block">
+          <div className="my-5">
+            <span className="font-Parisienne text-2xl">&</span>
+          </div>
+          <div className="">
+            <span className="font-Parisienne text-3xl">Indra Putra</span>
+            <span className="mt-4 block">
               Anak pertama dari{" "}
               <span className="block">
                 Bapak H. Zulkarnain dan Ibu Hj. Asnimar

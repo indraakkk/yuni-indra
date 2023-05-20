@@ -1,12 +1,8 @@
 import Image from "next/image";
 
 export default function Event() {
-  const openGoogleMap = () => {
-    console.log("open google map");
-  };
-
   return (
-    <section className="event">
+    <section className="event bg-yi-white/80">
       <div className="flex h-screen flex-col items-center justify-evenly">
         <div className="relative">
           <Image
@@ -29,27 +25,29 @@ export default function Event() {
               Villa Rumah Kayu, Lubuk Minturun, Padang
             </span>
 
-            <button
-              className="h-10 w-48 rounded-xl bg-yi-rose font-Itim text-white"
-              onClick={() => openGoogleMap()}
+            <a
+              href="https://goo.gl/maps/ueuyWvK8coBUYqLR8?coh=178573&entry=tt"
+              target="_blank"
+              className="rounded-xl bg-yi-rose px-10 py-2 font-Itim text-white"
             >
               Google Maps
-            </button>
+            </a>
+
             <Image
-              src={"/img/star.svg"}
+              src={"/img/border-flower-1.svg"}
               width={120}
               height={200}
               alt="event detail background"
               unoptimized={true}
-              className="absolute bottom-[17rem] left-[15rem]"
+              className="absolute bottom-[18rem] left-[15rem]"
             />
             <Image
-              src={"/img/star.svg"}
+              src={"/img/border-flower-2.svg"}
               width={180}
               height={200}
               alt="event detail background"
               unoptimized={true}
-              className="absolute right-64 rotate-45"
+              className="absolute right-64 rotate-[9]"
             />
           </div>
         </div>

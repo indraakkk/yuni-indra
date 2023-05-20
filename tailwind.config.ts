@@ -19,7 +19,22 @@ export default {
         'Itim': ['Itim', ...defaultTheme.fontFamily.sans],
         'Parisienne': ['Parisienne', ...defaultTheme.fontFamily.sans],
         'ViaodaLibre': ['ViaodaLibre', ...defaultTheme.fontFamily.sans],
-      }
+      },
+      animation: {
+        marquee: 'marquee 25s linear infinite',
+        marquee2: 'marquee2 25s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-150%)' },
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(150%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+      },
+
     },
   },
   plugins: [],
