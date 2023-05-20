@@ -1,8 +1,7 @@
 import { PrismaClient } from '@prisma/client'
+import { invitees } from './invitees-array'
 const prisma = new PrismaClient()
 async function main() {
-
-  const invitees = ['john', 'doe']
 
   const seedAll = invitees.map((d) => {
     const slug = d.replace(/\s+/g, '-').toLowerCase()

@@ -42,4 +42,4 @@ yarn-error.log*
 *.tsbuildinfo
 
 # list of invitees
-invitees.ts
+invitees-array.ts
