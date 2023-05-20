@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+  font-family: 'Allura';
+  src: url('/fonts/Allura-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'CinzelDecorative';
+  src: url('/fonts/CinzelDecorative-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'Itim';
+  src: url('/fonts/Itim-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'Parisienne';
+  src: url('/fonts/Parisienne-Regular.ttf');
+}
+
+@font-face{
+  font-family: 'ViaodaLibre';
+  src: url('/fonts/ViaodaLibre-Regular.ttf');
+}
