@@ -63,7 +63,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-        <div className="egift flex flex-col items-center justify-center text-white">
+        <div className="egift flex flex-col items-center justify-center font-Itim text-white">
           <button
             onClick={() => handleShowBankAccount(showBank)}
             className={`${

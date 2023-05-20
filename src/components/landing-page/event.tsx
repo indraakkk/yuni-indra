@@ -14,12 +14,12 @@ export default function Event() {
           />
           <div className="absolute left-1/2 top-1/2 w-full -translate-x-2/4 -translate-y-2/4 text-center">
             <span className="block font-ViaodaLibre text-4xl">Akad Nikah</span>
-            <span className="block font-ViaodaLibre">Sabtu, 06 Juni 2023</span>
-            <span className="block font-CinzelDecorative">09:00 - 10:00</span>
+            <span className="block font-ViaodaLibre">Sabtu, 17 Juni 2023</span>
+            <span className="block font-CinzelDecorative">07:00 - 10:00</span>
             <span className="mt-5 block font-ViaodaLibre text-4xl">
               Resepsi
             </span>
-            <span className="block font-ViaodaLibre">Sabtu, 06 Juni 2023</span>
+            <span className="block font-ViaodaLibre">Sabtu, 17 Juni 2023</span>
             <span className="font-CinzelDecorative">12:30 - 15:00</span>
             <span className="mb-5 mt-5 block font-ViaodaLibre">
               Villa Rumah Kayu, Lubuk Minturun, Padang
