@@ -77,13 +77,13 @@ const LandingPage = () => {
           >
             <div className="flex flex-col">
               <span>Transfer via mandiri</span>
-              <span className="text-lg">999-9999-99</span>
-              <span>Indra Putra</span>
+              <span className="text-lg">1110013658923</span>
+              <span>Yuni</span>
             </div>
             <div className="my-3 flex flex-col">
               <span>Transfer via mandiri</span>
-              <span className="text-lg">999-9999-99</span>
-              <span>Yuni</span>
+              <span className="text-lg">1090017506718</span>
+              <span>Indra Putra</span>
             </div>
           </div>
         </div>
