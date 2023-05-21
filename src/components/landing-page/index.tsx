@@ -31,8 +31,8 @@ const LandingPage = () => {
       <Event />
       <section className="gallery-and-egiving relative bg-yi-sage">
         <div className="relative">
-          <div className="relative flex overflow-x-hidden">
-            <div className="flex animate-marquee whitespace-nowrap py-10">
+          <div className="slider">
+            <div className="slider-track flex animate-scroll">
               {galleries.map((v, i) => {
                 return (
                   <Image
@@ -42,7 +42,7 @@ const LandingPage = () => {
                     height={100}
                     unoptimized={true}
                     alt={`gallery-${i}`}
-                    className="mx-2"
+                    className="slide mx-1"
                   />
                 );
               })}
@@ -56,7 +56,7 @@ const LandingPage = () => {
                     height={100}
                     unoptimized={true}
                     alt={`gallery-${i}`}
-                    className="mx-2"
+                    className="slide mx-1"
                   />
                 );
               })}

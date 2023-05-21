@@ -24,7 +24,7 @@ export default function Pray() {
             untuk hadir di acara pernikahan putra putri kami:
           </span>
         </div>
-        <div className="mt-8 flex flex-col">
+        <div className="mt-8 flex flex-col md:flex-row">
           <div>
             <span className="font-Parisienne text-3xl">Yuni</span>
             <span className="mt-4 block">

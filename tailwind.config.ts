@@ -21,20 +21,14 @@ export default {
         'ViaodaLibre': ['ViaodaLibre', ...defaultTheme.fontFamily.sans],
       },
       animation: {
-        marquee: 'marquee 25s linear infinite',
-        marquee2: 'marquee2 25s linear infinite',
+        scroll: 'scroll 30s linear infinite',
       },
       keyframes: {
-        marquee: {
-          '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-150%)' },
-        },
-        marquee2: {
-          '0%': { transform: 'translateX(150%)' },
-          '100%': { transform: 'translateX(0%)' },
-        },
+        scroll: {
+          '0%': { transform: 'translateX(0px)' },
+          '100%': { transform: 'translateX(calc(-204px*10))' },
+        }
       },
-
     },
   },
   plugins: [],
