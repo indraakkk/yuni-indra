@@ -28,7 +28,7 @@ export default function Event() {
             <a
               href="https://goo.gl/maps/ueuyWvK8coBUYqLR8?coh=178573&entry=tt"
               target="_blank"
-              className="rounded-xl bg-yi-rose px-10 py-2 font-Itim text-white"
+              className="rounded-lg bg-yi-rose px-10 py-2 font-Itim text-white"
             >
               Google Maps
             </a>

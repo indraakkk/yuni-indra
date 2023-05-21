@@ -1,9 +1,11 @@
+import Image from "next/image";
+
 export default function Pray() {
   return (
     <section className="pray flex justify-center bg-yi-rose text-center font-Itim text-sm text-white">
-      <div className="flex max-w-2xl flex-col items-center justify-evenly py-10">
+      <div className="flex max-w-2xl flex-col items-center justify-evenly py-20">
         <div className="px-8 ">
-          <span>
+          <span className="font-ViaodaLibre">
             Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
             pasangan-pasangan untukmu dari jenismu sendiri, agar kamu cenderung
             dan merasa tenteram kepadanya, dan Dia menjadikan di antaramu rasa
@@ -14,7 +16,7 @@ export default function Pray() {
             </span>
           </span>
         </div>
-        <div className="my-8 font-Allura text-xl tracking-wide">
+        <div className="my-8 font-Allura text-lg tracking-wide">
           <span>Assalamualaikum Warahmatullahi Wabarakatuh</span>
         </div>
         <div className="px-8">
@@ -37,7 +39,7 @@ export default function Pray() {
           <div className="my-5">
             <span className="font-Parisienne text-2xl">&</span>
           </div>
-          <div className="">
+          <div className="relative pb-10">
             <span className="font-Parisienne text-3xl">Indra Putra</span>
             <span className="mt-4 block">
               Anak pertama dari{" "}
@@ -46,6 +48,32 @@ export default function Pray() {
               </span>
             </span>
           </div>
+        </div>
+        <div className="relative flex w-32">
+          <Image
+            src={"/img/border-flower-3.svg"}
+            width={150}
+            height={200}
+            unoptimized={true}
+            alt="border flower"
+            className="absolute left-[122px] top-[0px]"
+          />
+          <Image
+            src={"/img/border-flower-3.svg"}
+            width={150}
+            height={200}
+            unoptimized={true}
+            alt="border flower"
+            className="absolute right-[0px] top-[0px]"
+          />
+          <Image
+            src={"/img/border-flower-3.svg"}
+            width={150}
+            height={200}
+            unoptimized={true}
+            alt="border flower"
+            className="absolute right-[122px] top-[0px]"
+          />
         </div>
       </div>
     </section>

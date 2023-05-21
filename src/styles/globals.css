@@ -63,31 +63,7 @@
   transition:0.5s;
 }
 
-
-@keyframes scroll {
-  0% {
-    transform: translateX(0px);
-  }
-  100% {
-    transform: translateX(calc(-300px * 10));
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .slide-track {
-    width: calc(300px * 20);
-  }
-
-  .slide {
-    width: 300px;
-  }
-
-  @keyframes scroll {
-    0% {
-      transform: translateX(0px);
-    }
-    100% {
-      transform: translateX(calc(-300px * 10));
-    }
-  }
+.swal2-popup {
+  font-size: 1rem !important;
+  font-family: "Itim", serif !important;
 }

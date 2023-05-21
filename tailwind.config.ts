@@ -21,7 +21,7 @@ export default {
         'ViaodaLibre': ['ViaodaLibre', ...defaultTheme.fontFamily.sans],
       },
       animation: {
-        scroll: 'scroll 30s linear infinite',
+        scroll: 'scroll 50s linear infinite',
       },
       keyframes: {
         scroll: {

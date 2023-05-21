@@ -13,10 +13,9 @@ generator client {
 
 model Invitees {
   id        String   @id @default(cuid())
-  slug      String   @unique
   name      String
-  rsvp      Boolean?
-  person    Int?
+  rsvp      Boolean  @default(false)
+  person    Int      @default(1)
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 }
