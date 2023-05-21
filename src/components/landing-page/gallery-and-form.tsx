@@ -154,7 +154,7 @@ export default function GalleryAndForm() {
           </div>
         </div>
       </div>
-      <div className="rsvp relative w-96 font-ViaodaLibre text-white">
+      <div className="rsvp relative w-96 px-5 font-ViaodaLibre text-white">
         <Image
           src={"/img/border-flower-3.svg"}
           width={150}
