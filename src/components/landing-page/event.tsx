@@ -20,7 +20,7 @@ export default function Event() {
               Resepsi
             </span>
             <span className="block font-ViaodaLibre">Sabtu, 17 Juni 2023</span>
-            <span className="font-CinzelDecorative">12:30 - 15:00</span>
+            <span className="font-CinzelDecorative">11:00 - 14:00</span>
             <span className="mb-5 mt-5 block font-ViaodaLibre">
               Villa Rumah Kayu, Lubuk Minturun, Padang
             </span>
