@@ -20,19 +20,26 @@ export default function GalleryAndForm() {
     rsvp: z.boolean(),
   });
 
+  const defaultValues = {
+    name: "",
+    person: 1,
+    rsvp: false,
+  };
+
   const {
     register,
     setValue,
     handleSubmit,
     reset,
     formState: { errors },
-  } = useForm<FormValues>({ resolver: zodResolver(schema) });
+  } = useForm<FormValues>({
+    resolver: zodResolver(schema),
+    defaultValues,
+  });
 
   const { mutate } = api.invitees.create.useMutation({
-    onSuccess: () => {
-      console.log("success");
-      // setInput("");
-      // void ctx.invitees.getAll.invalidate();
+    onSuccess: (): boolean => {
+      return true;
     },
     onError: (e) => {
       const errorMessage = e.data?.zodError?.fieldErrors.content;
@@ -55,6 +62,7 @@ export default function GalleryAndForm() {
     }).then((_res) => {
       reset();
       setValue("person", 1);
+      setIAttend(true);
     });
   };
 
@@ -191,7 +199,7 @@ export default function GalleryAndForm() {
             <div className="flex flex-row gap-1 ">
               <div
                 className={`
-                  flex h-9 w-full items-center justify-center rounded-md text-center
+                  flex h-9 w-full cursor-pointer items-center justify-center rounded-md text-center
                   ${iAttend ? "bg-yi-rose" : "border-2 border-yi-white"}
                 `}
                 onClick={() => handleChangeAttendVal(false)}
@@ -200,7 +208,7 @@ export default function GalleryAndForm() {
               </div>
               <div
                 className={`
-                  flex h-9 w-full items-center justify-center rounded-md text-center
+                  flex h-9 w-full cursor-pointer items-center justify-center rounded-md text-center
                   ${
                     iAttend === false
                       ? "bg-yi-rose"
