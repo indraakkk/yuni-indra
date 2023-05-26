@@ -220,6 +220,7 @@ export default function GalleryAndForm() {
             <input
               className="h-9 px-3 text-black"
               type="number"
+              disabled={!iAttend}
               {...register("person", { valueAsNumber: true })}
             />
             {errors?.person && (
