@@ -140,7 +140,7 @@ export default function GalleryAndForm() {
           </div>
         </div>
       </div>
-      <div className="egift flex flex-col items-center justify-center font-Itim text-white">
+      {/* <div className="egift flex flex-col items-center justify-center font-Itim text-white">
         <button
           onClick={() => handleShowBankAccount(showBank)}
           className={`${
@@ -247,7 +247,7 @@ export default function GalleryAndForm() {
             </button>
           </div>
         </form>
-      </div>
+      </div> */}
     </section>
   );
 }
