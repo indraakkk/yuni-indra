@@ -29,24 +29,12 @@ export default function Pray() {
         <div className="mt-8 flex flex-col md:flex-row">
           <div>
             <span className="font-Parisienne text-3xl">Yuni</span>
-            <span className="mt-4 block">
-              Anak kedua dari{" "}
-              <span className="block">
-                Bapak Adiwatmadja Rahman dan Ibu Awisalfasni
-              </span>
-            </span>
           </div>
           <div className="my-5">
             <span className="font-Parisienne text-2xl">&</span>
           </div>
           <div className="relative pb-10">
             <span className="font-Parisienne text-3xl">Indra Putra</span>
-            <span className="mt-4 block">
-              Anak pertama dari{" "}
-              <span className="block">
-                Bapak H. Zulkarnain dan Ibu Hj. Asnimar
-              </span>
-            </span>
           </div>
         </div>
         <div className="relative flex w-32">
