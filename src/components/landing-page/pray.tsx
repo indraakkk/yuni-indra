@@ -30,10 +30,10 @@ export default function Pray() {
           <div>
             <span className="font-Parisienne text-3xl">Yuni</span>
           </div>
-          <div className="my-5">
+          <div className="">
             <span className="font-Parisienne text-2xl">&</span>
           </div>
-          <div className="relative pb-10">
+          <div className="relative">
             <span className="font-Parisienne text-3xl">Indra Putra</span>
           </div>
         </div>
